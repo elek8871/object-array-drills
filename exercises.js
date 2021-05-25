@@ -94,7 +94,7 @@ const album8 = {
   title: "Naked",
   albumDetails: {
     released: new Date("March 15, 1988"),
-    label:    ["Sire", "EMI"],
+    labels:    ["Sire", "EMI"],
     formats:  ["CD", "cassette", "LP"]
   }
 };

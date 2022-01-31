@@ -9,7 +9,7 @@ const album1 = {
     label:    "Sire",
     formats:  ["LP"]
   }
-};
+}  
 
 // 1. Retrieve the string "Sire" from album1, and save it in a sensibly named
 //    variable.
@@ -23,7 +23,7 @@ const album2 = {
     label:    "Sire",
     formats:  ["LP", "8-track"]
   }
-};
+}  
 
 const album3 = {
   title: "Fear of Music",
@@ -32,7 +32,7 @@ const album3 = {
     label:    "Sire",
     formats:  ["Cassette"]
   }
-};
+}  
 
 // 3. Access album2's formats array and use an array method to add "LP" to
 //    album3's formats
@@ -47,7 +47,7 @@ const album4 = {
     released: new Date("October 8, 1980"),
     formats: ["Cassette", "LP"]
   }
-};
+}  
 
 // 5. Add the label "Sire" to album4's details
 
@@ -57,7 +57,7 @@ const album5 = {
     released: new Date("May 31, 1983"),
     label:    "Sire"
   }
-};
+}  
 
 // 6. Add a 'formats' array to album 5 and add "CD", "Cassette", and "LP"
 
@@ -68,7 +68,7 @@ const album6 = {
     labels:   ["Sire", "emi"],
     formats:  ["CD", "cassette", "LP"]
   }
-};
+}  
 
 // 7. Make the label "emi" in album6 all uppercase
 // google how to make a string uppercase in js!
@@ -80,7 +80,7 @@ const album7 = {
     labels:   "Sire, EMI",
     formats:  ["CD", "cassette", "LP"]
   }
-};
+}  
 
 // 8. Convert album7's 'labels' property from the string value
 //    "Sire, EMI" into the array: ["Sire", "EMI"]
@@ -97,7 +97,7 @@ const album8 = {
     labels:    ["Sire", "EMI"],
     formats:  ["CD", "cassette", "LP"]
   }
-};
+}  
 
 const talkingHeadsAlbums = [
   album1,
@@ -108,7 +108,7 @@ const talkingHeadsAlbums = [
   album6,
   album7,
   album8
-];
+]  
 
 // 1. Create an object literal called `band`.
 
@@ -183,13 +183,13 @@ const talkingHeadsAlbums = [
 //      section: "right",
 //      type: "premium",
 //      seats: 1
-//    };
+//    }  
 //    const ticket1 = {
 //      name: "Newt Gingrich",
 //      section: "center",
 //      type: "standard",
 //      seats: 4
-//    };
+//    }  
 //
 //    Messages:
 //    "Welcome, Madeline Albright! You may sit anywhere in the first 3 rows of the right section."
@@ -203,7 +203,7 @@ const ticketSections = [
   {name: "Marion Barry",          section: "center", type: "standard", seats: 8},
   {name: "Warren Christopher",    section: "right",  type: "standard", seats: 1},
   {name: "Bob Dole",              section: "center", type: "premium",  seats: 3}
-];
+]  
 
 // 2. There is a concert at the LA County Fairgrounds by the Southland's
 //    hottest Talking Heads tribute band for zombie afficianados,
@@ -243,4 +243,4 @@ const tickets = [
   {amount: 80.00, discount: true},
   {amount: 90.00},
   {amount: 50.00, discount: true}
-];
+]  
